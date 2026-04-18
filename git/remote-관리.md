@@ -75,7 +75,26 @@ git log --oneline -5
 `my` 쪽에 새 커밋이 추가되면:
 
 ```bash
+git pull my main
+```
+
+한 줄이면 끝. `git pull`이 내부적으로 `fetch + merge`를 연달아 실행한다:
+
+```
+git pull my main  =  git fetch my main  +  git merge my/main
+```
+
+즉 `fetch`는 원격 정보만 로컬 `.git/` 에 가져오는 단계(파일은 안 바뀜), `merge`가 실제로 현재 브랜치에 합치는 단계. `pull`은 둘을 묶은 것.
+
+앞에서 `fetch`를 먼저 실행한 이유는 **pull 전에 뭐가 들어올지 미리 보기 위한 방어적 워크플로우**였다. 변화가 명확하면 그냥 `git pull my main` 한 줄로 충분.
+
+```bash
+# 방어적 (뭐 들어오는지 확인 후 진행)
 git fetch my
+git log HEAD..my/main --oneline
+git pull my main
+
+# 단순 (믿을 만한 업데이트일 때)
 git pull my main
 ```
 
@@ -188,7 +207,7 @@ ls batch_run.sh batch_inference.py BATCH_USAGE.md
 
 이후 배치 스크립트 업데이트 받을 때:
 ```bash
-git fetch my && git pull my main
+git pull my main
 ```
 
 ## 참고
