@@ -1,5 +1,7 @@
 # WSL2 + VS Code 연동
 
+> 💡 Windows 환경 VS Code 설정은 → [vscode/](../vscode/) 폴더 참고
+
 ## VS Code에서 WSL 접속
 
 1. Windows VS Code에 **Remote - WSL** 확장 설치
