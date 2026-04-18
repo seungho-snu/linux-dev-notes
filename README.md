@@ -23,6 +23,7 @@ GitHub에서 `Ctrl+K` → 파일명이나 키워드로 검색하면 빠르게 �
 
 ## 📝 업데이트 기록
 
+- 2026-04-18: git/ 에 remote 관리 문서 추가 (다중 원격 저장소, fork 동기화, fast-forward/rebase 패턴)
 - 2026-04-18: vscode/ 폴더 추가 (visual_code 레포에서 통합), ffmpeg/ 폴더 추가 (ffmpeg 레포에서 통합), 디스크/캐시 관리 문서 추가
 - 2026-04-16: uv 설치 방법 및 SSL 인증서(native-tls) 트러블슈팅 추가
 - 2026-03-27: 초기 구조 생성, SHARP 프로젝트 설치 기록 추가
