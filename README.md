@@ -24,6 +24,7 @@ GitHub에서 `Ctrl+K` → 파일명이나 키워드로 검색하면 빠르게 �
 
 ## 📝 업데이트 기록
 
+- 2026-04-19: cuda/multi-arch-빌드.md 추가 (TORCH_CUDA_ARCH_LIST, 슈퍼컴 GPU 동적 할당 환경에서 커스텀 CUDA extension 빌드 패턴), ffmpeg/decord-호환성.md 추가 (OpenCV mp4v 파일을 decord가 못 읽는 4K 이슈와 libx264 재인코딩 해결)
 - 2026-04-19: huggingface/ 폴더 추가 (캐시 관리, 오프라인 모드, HF_HUB_OFFLINE/TRANSFORMERS_OFFLINE, 슈퍼컴 rsync 이전 시나리오, hf_transfer 가속)
 - 2026-04-18: git/ 에 remote 관리 문서 추가 (다중 원격 저장소, fork 동기화, fast-forward/rebase 패턴)
 - 2026-04-18: vscode/ 폴더 추가 (visual_code 레포에서 통합), ffmpeg/ 폴더 추가 (ffmpeg 레포에서 통합), 디스크/캐시 관리 문서 추가
