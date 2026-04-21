@@ -24,6 +24,7 @@ GitHub에서 `Ctrl+K` → 파일명이나 키워드로 검색하면 빠르게 �
 
 ## 📝 업데이트 기록
 
+- 2026-04-21: bash/ 문서 4개 추가 — 문자열-처리.md (파라미터 확장/sed/awk/grep), 조건-반복.md (if/for/while/case/set -e), 프로세스-관리.md (&/nohup/tmux/kill/ps), path-확장.md (~/./**/{,}/$(...) 등). bash/기본-명령어.md 하단에 전체 문서 인덱스 추가.
 - 2026-04-21: bash/리다이렉트-heredoc.md 추가 (>, >>, <, 2>, pipe, heredoc cat>>file<<'EOF' 문법, 실전 사례, 실수 패턴)
 - 2026-04-19: cuda/multi-arch-빌드.md 추가 (TORCH_CUDA_ARCH_LIST, 슈퍼컴 GPU 동적 할당 환경에서 커스텀 CUDA extension 빌드 패턴), ffmpeg/decord-호환성.md 추가 (OpenCV mp4v 파일을 decord가 못 읽는 4K 이슈와 libx264 재인코딩 해결)
 - 2026-04-19: huggingface/ 폴더 추가 (캐시 관리, 오프라인 모드, HF_HUB_OFFLINE/TRANSFORMERS_OFFLINE, 슈퍼컴 rsync 이전 시나리오, hf_transfer 가속)
