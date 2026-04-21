@@ -162,6 +162,7 @@ SHARP, Forward-Warp, gsplat, diff-gaussian-rasterization, tiny-cuda-nn, tcnn, po
 - SHARP (`sharp-stereo-sbs`): gsplat 커스텀 빌드 시 `TORCH_CUDA_ARCH_LIST="7.0;8.0;9.0"` 필요 — SHARP 프로젝트 노트 참조
 - Forward-Warp (`stereocrafter`, `stereocrafter-3d-photo`): 동일 패턴
 - MoVieS: DINOv2 + custom ops 사용 시 동일
+- **xformers**: precompiled wheel이 H100 sm_90 미포함일 때 별도 이슈. 자세한 건 [[cuda/xformers-sm-mismatch]] 참고
 
 ## 한 줄 요약
 
