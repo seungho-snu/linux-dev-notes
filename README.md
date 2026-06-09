@@ -17,6 +17,7 @@ WSL / Linux / CUDA 개발 환경에서 자주 쓰는 명령어와 설정을 정�
 | [ffmpeg/](ffmpeg/) | ffmpeg/ffprobe 명령어, SBS 3D 합성, 딥러닝 전처리 |
 | [yt-dlp/](yt-dlp/) | 유튜브 다운로드, 포맷 선택, 자막, .bat 스크립트 |
 | [huggingface/](huggingface/) | HuggingFace Hub 캐시 관리, 오프라인 모드, 슈퍼컴 이전 |
+| [network/](network/) | SSL 인증서/프록시 문제 해결 (사내망) |
 | [projects/](projects/) | 프로젝트별 설치/실행 기록 (SHARP 등) |
 
 ## 🔍 빠른 검색
@@ -25,6 +26,7 @@ GitHub에서 `Ctrl+K` → 파일명이나 키워드로 검색하면 빠르게 �
 
 ## 📝 업데이트 기록
 
+- 2026-05-12: network/ 폴더 추가 (SSL 인증서/프록시 환경변수, 자동 적용 방법)
 - 2026-05-08: yt-dlp/ 폴더 추가 (포맷 선택, 해상도 지정, 자막, 프록시, .bat 스크립트)
 - 2026-04-21: cuda/xformers-sm-mismatch.md 추가 (H100/A100 xformers 'sm50 built' 에러 해결 — pip uninstall xformers가 99% 해결책, XFORMERS_DISABLED=1은 일부 환경에서 무시됨)
 - 2026-04-21: bash/ 문서 4개 추가 — 문자열-처리.md (파라미터 확장/sed/awk/grep), 조건-반복.md (if/for/while/case/set -e), 프로세스-관리.md (&/nohup/tmux/kill/ps), path-확장.md (~/./**/{,}/$(...) 등). bash/기본-명령어.md 하단에 전체 문서 인덱스 추가.
